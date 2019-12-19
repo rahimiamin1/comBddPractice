@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12104399500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login test to TekSchool Test Environment page",
+        "description": "",
+        "id": "login;login-test-to-tekschool-test-environment-page",
+        "after": [
+          {
+            "result": {
+              "duration": 853860200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4836301900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on TekSchool page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1667520600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on Test Environment link",
+            "match": {
+              "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13281800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see Test Environment page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@PracticeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature"
+  }
+]
